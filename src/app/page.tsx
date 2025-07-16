@@ -1,7 +1,6 @@
-import Image from "next/image"; 
+
 import VantaBackground from "./component/VantaBackground";
 import Header from "./component/Header";
-import { Contact, Linkedin, Mail, MapPin, Phone } from "lucide-react";
 import ExperienceTimeline from "./component/ExperienceTimeline";
 import ContactSection from "./component/ContactPage";
 import Footer from "./component/Footer";
