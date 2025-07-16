@@ -9,7 +9,7 @@ const About = () => {
 
         {/* About Me Text */}
         <p className="text-lg leading-relaxed text-gray-300 mb-12">
-          I'm Vinay Sounderraj, a dedicated Frontend Developer with a strong passion for creating interactive,
+          I&apos;m Vinay Sounderraj, a dedicated Frontend Developer with a strong passion for creating interactive,
           fast, and accessible web applications using React.js, React Native, and Next.js. I bring user experiences
           to life with modern technologies and pixel-perfect implementation.
         </p>
