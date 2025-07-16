@@ -37,8 +37,7 @@ const experiences = [
   },
   // Add more experiences here
 ];
-
-export const projects = [
+const projects = [
   {
     company: "Smart Invoice Generator",
     role: "Full Stack Developer",
