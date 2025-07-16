@@ -6,7 +6,9 @@ import ContactSection from "./component/ContactPage";
 import Footer from "./component/Footer";
 import Skills from "./component/Skills";
 import About from "./component/About";
-const skills = [
+
+export default function Page() {
+  const skills = [
   'HTML',
   'CSS',
   'JavaScript',
@@ -75,7 +77,6 @@ const projects = [
   },
 ];
 
-export default function Home() {
   return (
     <div  >
        
