@@ -4,7 +4,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import * as THREE from 'three'; // Import Three.js
 import HALO from 'vanta/dist/vanta.halo.min'; // Import the desired Vanta effect
 
-const VantaBackground = (props: any) => {
+const VantaBackground = ( ) => {
   const [vantaEffect, setVantaEffect] = useState<any>(null);
   const vantaRef = useRef(null); // Ref to attach the Vanta effect to
 
