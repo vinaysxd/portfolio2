@@ -1,8 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
-import { Menu, X } from 'lucide-react'; // Lucide icons
-import Image from 'next/image';
+import { Menu, X } from 'lucide-react'; // Lucide icons 
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);

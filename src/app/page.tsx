@@ -76,7 +76,7 @@ const projects = [
     technologies: ["Next.js", "Socket.IO", "Tailwind CSS"],
     link: "https://github.com/yourusername/chat-app",
     demo: "https://chat-app-demo.vercel.app",
-    image: "/images/projects/chat.png"
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2W-64LWS9NOjh8Ute-27yvh_8abwrQNSeMQ&s"
   },
   {
     company: "Restaurant Finder Mobile App",
@@ -86,7 +86,7 @@ const projects = [
     technologies: ["React Native", "Google Maps API", "Firebase"],
     link: "https://github.com/yourusername/restaurant-finder",
     demo: "https://restaurant-finder-demo.vercel.app",
-    image: "/images/projects/restaurant.png"
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2W-64LWS9NOjh8Ute-27yvh_8abwrQNSeMQ&s"
   },
   {
     company: "E-commerce Admin Dashboard",
@@ -96,7 +96,7 @@ const projects = [
     technologies: ["React", "Chart.js", "Tailwind CSS"],
     link: "https://github.com/yourusername/admin-dashboard",
     demo: "https://admin-dashboard-demo.vercel.app",
-    image: "/images/projects/dashboard.png"
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2W-64LWS9NOjh8Ute-27yvh_8abwrQNSeMQ&s"
   },
   {
     company: "Portfolio Website Generator",
@@ -106,7 +106,7 @@ const projects = [
     technologies: ["React", "Tailwind", "GitHub Pages"],
     link: "https://github.com/yourusername/portfolio-generator",
     demo: "https://portfolio-generator-demo.vercel.app",
-    image: "/images/projects/portfolio.png"
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2W-64LWS9NOjh8Ute-27yvh_8abwrQNSeMQ&s"
   },
   {
     company: "Learning Management System",
@@ -116,7 +116,7 @@ const projects = [
     technologies: ["Next.js", "Firebase", "Tailwind CSS"],
     link: "https://github.com/yourusername/lms-platform",
     demo: "https://lms-platform.vercel.app",
-    image: "/images/projects/lms.png"
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2W-64LWS9NOjh8Ute-27yvh_8abwrQNSeMQ&s"
   },
   {
     company: "Weather Forecast App",
@@ -126,7 +126,7 @@ const projects = [
     technologies: ["React", "OpenWeatherMap", "CSS Modules"],
     link: "https://github.com/yourusername/weather-app",
     demo: "https://weather-app-demo.vercel.app",
-    image: "/images/projects/weather.png"
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2W-64LWS9NOjh8Ute-27yvh_8abwrQNSeMQ&s"
   },
   {
     company: "Finance Tracker App",

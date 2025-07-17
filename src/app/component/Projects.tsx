@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image';
 import React from 'react';
 
 type Project = {
@@ -28,7 +29,7 @@ const Projects = ({ projects }: Props) => {
             {/* Project Image */}
             <div className="h-40 bg-gray-700">
               {project.image ? (
-                <img src={project.image} alt={project.company} className="w-full h-full object-cover" />
+                <Image src={project.image} alt={project.company} className="w-full h-full object-cover" />
               ) : (
                 <div className="flex items-center justify-center h-full text-gray-400 text-sm">
                   No Image
