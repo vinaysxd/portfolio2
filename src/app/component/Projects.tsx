@@ -29,7 +29,13 @@ const Projects = ({ projects }: Props) => {
             {/* Project Image */}
             <div className="h-40 bg-gray-700">
               {project.image ? (
-                <Image src={project.image} alt={project.company} className="w-full h-full object-cover" />
+                <Image
+  src={project.image}
+  alt={project.company}
+  width={400}       // specify width
+  height={200}      // specify height
+  className="w-full h-full object-cover"
+/>
               ) : (
                 <div className="flex items-center justify-center h-full text-gray-400 text-sm">
                   No Image
