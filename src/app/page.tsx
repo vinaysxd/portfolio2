@@ -162,7 +162,7 @@ const projects = [
           </div>
         </section>
         <div className="mt-48"/>
-         <section id="projects" className="h-screen flex items-center justify-center scroll-mt-16">
+         <section id="projects" className=" flex items-center justify-center scroll-mt-16">
           <Projects projects={projects}/> 
         </section>
         <section id="contact" className="h-screen flex items-center justify-center ">

@@ -19,9 +19,9 @@ interface Props {
 }
 
 const Projects = ({ projects }: Props) => {
-  return (
-    <section className="py-16 px-6 bg-[#0f172a] text-white">
-      <h2 className="text-4xl font-bold text-center mb-10">Projects</h2>
+  return ( 
+      <div className="px-12">
+        <h2 className="text-4xl font-bold text-center mb-10">Projects</h2>
 
       <div className="grid gap-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
         {projects.map((project, idx) => (
@@ -81,8 +81,8 @@ const Projects = ({ projects }: Props) => {
             </div>
           </div>
         ))}
+      </div> 
       </div>
-    </section>
   );
 };
 
