@@ -15,35 +15,35 @@ const About = () => {
         </p>
 
         {/* Contact Info Horizontally */}
-        <div className="grid grid-cols-2 sm:grid-cols-4 gap-8 justify-items-center">
+        <div className="grid grid-cols-2 sm:grid-cols-3 gap-8 justify-items-center align-items-center ">
           {/* Phone */}
-          <div className="flex flex-col items-center">
+          {/* <div className="flex flex-col items-center">
             <Phone className="w-8 h-8 text-blue-500 mb-2" />
             <span className="text-sm text-gray-300">+91 98765 43210</span>
-          </div>
+          </div> */}
 
           {/* Email */}
           <div className="flex flex-col items-center">
             <Mail className="w-8 h-8 text-blue-500 mb-2" />
-            <span className="text-sm text-gray-300">vinay@example.com</span>
+            <span className="text-sm text-gray-300">vinaysandesh34@example.com</span>
           </div>
 
           {/* Location */}
           <div className="flex flex-col items-center">
             <MapPin className="w-8 h-8 text-blue-500 mb-2" />
-            <span className="text-sm text-gray-300">Hyderabad, India</span>
+            <span className="text-sm text-gray-300">Sydney, Australia</span>
           </div>
 
           {/* LinkedIn */}
           <div className="flex flex-col items-center">
             <Linkedin className="w-8 h-8 text-blue-500 mb-2" />
             <a
-              href="https://www.linkedin.com/in/vinaysounderraj"
+              href="https://www.linkedin.com/in/vinay-s-3a8807129/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-sm text-gray-300 hover:text-white hover:underline"
             >
-              linkedin.com/in/vinaysounderraj
+              Vinay S
             </a>
           </div>
         </div>

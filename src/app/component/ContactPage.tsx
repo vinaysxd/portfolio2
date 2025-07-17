@@ -1,6 +1,6 @@
 'use client';
 
-import { Mail, Phone, MapPin, Send } from 'lucide-react';
+import { Mail, Phone, MapPin, Send, Linkedin } from 'lucide-react';
 import { useState } from 'react';
 
 export default function ContactSection() {
@@ -31,15 +31,18 @@ export default function ContactSection() {
 
             <div className="flex items-center gap-4">
               <Mail className="w-6 h-6 text-blue-500" />
-              <span>vinay@example.com</span>
+              <span>contactme@vinays.dev</span>
             </div>
             <div className="flex items-center gap-4">
-              <Phone className="w-6 h-6 text-blue-500" />
-              <span>+91 98765 43210</span>
+              <Linkedin className="w-6 h-6 text-blue-500" />
+              <a href="https://www.linkedin.com/in/vinay-s-3a8807129/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-sm text-gray-300 hover:text-white hover:underline">Vinay S</a>
             </div>
             <div className="flex items-center gap-4">
               <MapPin className="w-6 h-6 text-blue-500" />
-              <span>Hyderabad, India</span>
+              <span>Sydney, Australia</span>
             </div>
           </div>
 
