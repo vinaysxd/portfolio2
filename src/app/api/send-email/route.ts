@@ -1,8 +1,8 @@
 
 
 
-import { NextResponse } from 'next/server';
-const nodemailer = require("nodemailer");
+import { NextResponse } from 'next/server'; 
+import nodemailer from 'nodemailer';
 
 export async function POST(req: Request) {
   try {
@@ -35,7 +35,9 @@ export async function POST(req: Request) {
     });
 
     return NextResponse.json({ message: 'Email sent successfully' }, { status: 200 });
-  } catch (error: any) {
+  } 
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  catch (error: any) {
     console.error('Email error:', error);
     return NextResponse.json({ message: 'Failed to send email', error: error.message }, { status: 500 });
   }

@@ -2,7 +2,7 @@
 
 import axios from 'axios';
 import dynamic from 'next/dynamic';
-import { use, useEffect, useState } from 'react';
+import {  useEffect, useState } from 'react';
 
 const Mail = dynamic(() => import('lucide-react').then(mod => mod.Mail), { ssr: false });
 const Linkedin = dynamic(() => import('lucide-react').then(mod => mod.Linkedin), { ssr: false });
@@ -32,7 +32,9 @@ export default function ContactSection() {
     } else {
       alert('Failed to send email.');
     }
-  } catch (error: any) {
+  } 
+ // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  catch (error: any) {
     console.error('Error sending email:', error.response?.data || error.message);
     alert('Something went wrong while sending your message.');
   }
