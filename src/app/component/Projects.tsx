@@ -1,4 +1,3 @@
-'use client';
 
 import Image from 'next/image';
 import React from 'react';
@@ -20,10 +19,10 @@ interface Props {
 
 const Projects = ({ projects }: Props) => {
   return ( 
-      <div className="px-12">
+      <div className="px-12 py-16 max-w-7xl mx-auto">
         <h2 className="text-4xl font-bold text-center mb-10">Projects</h2>
 
-      <div className="grid gap-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+      <div className="grid gap-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
         {projects.map((project, idx) => (
           <div key={idx} className="bg-[#1e293b] rounded-2xl shadow-md overflow-hidden hover:shadow-xl transition">
             {/* Project Image */}

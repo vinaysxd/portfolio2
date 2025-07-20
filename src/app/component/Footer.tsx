@@ -1,5 +1,3 @@
-'use client';
-
 import { Github, Linkedin } from 'lucide-react';
 
 export default function Footer() {
@@ -30,7 +28,7 @@ export default function Footer() {
 
         {/* Copyright */}
         <div className="text-sm text-center">
-          © {new Date().getFullYear()} — Developed by <span className="font-medium">Vinay Sounderraj</span>
+          © {2025} — Developed by <span className="font-medium">Vinay Sounderraj</span>
         </div>
 
         {/* Creative Line */}

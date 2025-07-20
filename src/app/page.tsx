@@ -27,16 +27,16 @@ export default function Page() {
 ];
 const experiences = [
   {
-    company: 'Gameloft Brisbane',
-    role: 'Frontend Developer',
-    duration: 'Feb 2023 – Present',
-    description: 'Built UI for mobile games using React Native. Led performance optimizations and component libraries.',
+    company: 'Capital Numbers Info Tech.',
+    role: 'Software Developer',
+    duration: 'June 2022 – Jan 2023',
+    description: 'Built front end UI for clients collaborating with backend teams. Led performance optimizations and component libraries.',
   },
   {
-    company: 'Sanico Software',
-    role: 'Junior Web Developer',
-    duration: 'Jul 2022 – Jan 2023',
-    description: 'Assisted in developing responsive web interfaces using React and Tailwind CSS.',
+    company: 'Regaltusk Pvt Ltd (Classspace)',
+    role: 'Software Developer',
+    duration: 'May 2020 - June 2022',
+    description: 'Worked on classspace web app and mobile appplication, developing features like attendance, assignments, and notifications. Collaborated with designers to implement responsive layouts.',
   },
   // Add more experiences here
 ];
@@ -117,27 +117,7 @@ const projects = [
     link: "https://github.com/yourusername/lms-platform",
     demo: "https://lms-platform.vercel.app",
     image: "/portfolio.png"
-  },
-  {
-    company: "Weather Forecast App",
-    role: "React Developer",
-    duration: "May 2022 – Jul 2022",
-    description: "Created a responsive weather app using OpenWeatherMap API, with location-based forecast and dynamic UI changes.",
-    technologies: ["React", "OpenWeatherMap", "CSS Modules"],
-    link: "https://github.com/yourusername/weather-app",
-    demo: "https://weather-app-demo.vercel.app",
-    image: "/portfolio.png"
-  },
-  {
-    company: "Finance Tracker App",
-    role: "Frontend Developer",
-    duration: "Jan 2022 – Apr 2022",
-    description: "Designed and built a personal finance tracker with budget insights, expense history, and analytics dashboard.",
-    technologies: ["React", "Chart.js", "Tailwind CSS"],
-    link: "https://github.com/yourusername/finance-tracker",
-    demo: "https://finance-tracker-demo.vercel.app",
-    image: "/portfolio.png"
-  }
+  }, 
 ];
   return (
     <div  >
@@ -155,14 +135,16 @@ const projects = [
            <Skills skills={skills}/>
         </section>
 
-        <section id="experience" className="  flex items-center justify-center scroll-mt-12">
-          <div>
-            <ExperienceTimeline experiences={experiences} title="Experiences"/> <br/>
+        <section id="experience" className="min-h-screen flex items-center justify-center scroll-mt-12">
+          
+            <div>
+              <ExperienceTimeline experiences={experiences} title="Experiences"/> <br/>
           <ExperienceTimeline experiences={education} title="Education"/>
-          </div>
+            </div>
+        
         </section>
         <div className="mt-48"/>
-         <section id="projects" className=" flex items-center justify-center scroll-mt-16">
+         <section id="projects" className="min-h-screen flex items-center justify-center scroll-mt-16">
           <Projects projects={projects}/> 
         </section>
         <section id="contact" className="h-screen flex items-center justify-center ">
