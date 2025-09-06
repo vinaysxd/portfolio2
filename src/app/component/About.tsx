@@ -25,7 +25,7 @@ const About = () => {
           {/* Email */}
           <div className="flex flex-col items-center">
             <Mail className="w-8 h-8 text-blue-500 mb-2" />
-            <span className="text-sm text-gray-300">vinaysandesh34@example.com</span>
+            <span className="text-sm text-gray-300">contactme@vinays.dev</span>
           </div>
 
           {/* Location */}
