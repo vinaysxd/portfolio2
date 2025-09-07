@@ -62,10 +62,10 @@ const projects = [
     company: "Portfolio",
     role: "Full Stack Developer",
     duration: "Jan 2025 – Apr 2025",
-    description: "My personal portfolio showcasing my skills, projects, and experiences. Built with Next.js and Tailwind CSS.",
+    description: "My personal portfolio showcasing my skills, projects, and experiences. Built with Next.js, Typescript and Tailwind CSS.",
     technologies: ["Next.js", "Tailwind CSS", "React"], 
-    link: "https://github.com/yourusername/invoice-generator",
-    demo: "https://invoice-demo.vercel.app",
+    link: "https://github.com/vinaysxd/portfolio2.git",
+    demo: "https://vinays.dev",
     image: "/portfolio.png"
   },
   {
