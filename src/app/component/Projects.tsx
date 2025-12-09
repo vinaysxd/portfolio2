@@ -10,6 +10,7 @@ type Project = {
   link: string;
   demo?: string; // Optional live demo
   image?: string; // Optional image URL
+  display: boolean;
 };
 
 interface Props {
@@ -27,9 +28,9 @@ const Projects = ({ projects }: Props) => {
             key={idx} 
             className="bg-[#1e293b] rounded-2xl shadow-md overflow-hidden hover:shadow-xl transition"
           >
-            {idx === 0 ? (
+            {project.display === true ? (
               // ✅ First Project – show full portfolio
-              <>
+              <> 
                 {/* Project Image */}
                 <div className="h-40 bg-gray-700">
                   {project.image ? (
@@ -89,7 +90,7 @@ const Projects = ({ projects }: Props) => {
               </>
             ) : (
               // ❌ Other Projects – Coming Soon placeholder
-              <div className="flex items-center justify-center h-64 text-gray-400 text-lg font-semibold">
+              <div className="flex items-center justify-center h-64 text-gray-400 text-lg font-semibold"> 
                 🚧 Coming Soon 🚧
               </div>
             )}

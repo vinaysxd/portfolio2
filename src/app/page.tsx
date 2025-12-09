@@ -60,23 +60,25 @@ const education = [
 const projects = [
   {
     company: "Portfolio",
-    role: "Full Stack Developer",
+    role: "Frontend Developer",
     duration: "Jan 2025 – Apr 2025",
     description: "My personal portfolio showcasing my skills, projects, and experiences. Built with Next.js, Typescript and Tailwind CSS.",
     technologies: ["Next.js", "Tailwind CSS", "React"], 
     link: "https://github.com/vinaysxd/portfolio2.git",
     demo: "https://vinays.dev",
-    image: "/portfolio.png"
+    image: "/portfolio.png",
+    display: true
   },
   {
-    company: "Real-Time Chat Application",
-    role: "Frontend Developer",
-    duration: "Oct 2023 – Dec 2023",
-    description: "Developed a real-time chat interface using Next.js and Socket.IO with group messaging, emoji reactions, and dark mode toggle.",
-    technologies: ["Next.js", "Socket.IO", "Tailwind CSS"],
-    link: "https://github.com/yourusername/chat-app",
-    demo: "https://chat-app-demo.vercel.app",
-    image: "/portfolio.png"
+    company: "Vizchat - Real-Time Chat Application",
+    role: "Full Stack Developer",
+    duration: "November 2025 – Dec 2025",
+    description: "Developed a real-time chat interface using React Native, NodeJS and Socket.IO.",
+    technologies: ["React Native(Expo)", "Socket.IO", "NodeJs"],
+    link: "https://github.com/vinaysxd/backend",
+    demo: "https://vizchat.vinays.dev",
+    image: "/vizchat.png",
+    display: true
   },
   {
     company: "Restaurant Finder Mobile App",
@@ -86,7 +88,8 @@ const projects = [
     technologies: ["React Native", "Google Maps API", "Firebase"],
     link: "https://github.com/yourusername/restaurant-finder",
     demo: "https://restaurant-finder-demo.vercel.app",
-    image: "/portfolio.png"
+    image: "/portfolio.png",
+    display: false
   },
   {
     company: "E-commerce Admin Dashboard",
@@ -96,7 +99,8 @@ const projects = [
     technologies: ["React", "Chart.js", "Tailwind CSS"],
     link: "https://github.com/yourusername/admin-dashboard",
     demo: "https://admin-dashboard-demo.vercel.app",
-    image: "/portfolio.png"
+    image: "/portfolio.png",
+    display: false
   },
   {
     company: "Portfolio Website Generator",
@@ -106,7 +110,8 @@ const projects = [
     technologies: ["React", "Tailwind", "GitHub Pages"],
     link: "https://github.com/yourusername/portfolio-generator",
     demo: "https://portfolio-generator-demo.vercel.app",
-    image: "/portfolio.png"
+    image: "/portfolio.png",
+    display: false
   },
   {
     company: "Learning Management System",
@@ -116,7 +121,8 @@ const projects = [
     technologies: ["Next.js", "Firebase", "Tailwind CSS"],
     link: "https://github.com/yourusername/lms-platform",
     demo: "https://lms-platform.vercel.app",
-    image: "/portfolio.png"
+    image: "/portfolio.png",
+    display: false
   }, 
 ];
   return (
@@ -124,9 +130,7 @@ const projects = [
        
       <Header />
         
-          <section id="home" className="h-screen flex items-center justify-center "> 
-           <VantaBackground/>
-        </section>
+          
         <section id="about" className="h-screen flex items-center justify-center "> 
            <About/>
         </section>
