@@ -130,7 +130,9 @@ const projects = [
        
       <Header />
         
-          
+          <section id="home" className="h-screen flex items-center justify-center "> 
+           <VantaBackground/>
+        </section>
         <section id="about" className="h-screen flex items-center justify-center "> 
            <About/>
         </section>
