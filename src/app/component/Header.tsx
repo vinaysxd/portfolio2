@@ -50,7 +50,7 @@ export default function Header() {
 
             <a
               download
-              href="/resume.pdf"
+              href="/resume.docx"
               className="mt-2 md:mt-0 bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition"
               onClick={() => setIsOpen(false)}
             >
